@@ -36,7 +36,30 @@ Implement a **Support Vector Machine (SVM)** classifier to distinguish between i
 - Split dataset into training and testing sets  
 - Trained a **Support Vector Classifier (SVC)** model  
 - Evaluated performance using **accuracy score**  
-- Visualized predictions on random test images  
+- Visualized predictions on random test images
+
+---
+
+## 📝 Notes on Dataset Usage
+
+For this project, I used a **subset** of the original Kaggle dataset rather than all 25,000 images.  
+- **Reason:** Training an SVM on the full dataset is computationally intensive and time-consuming.  
+- Using a smaller subset speeds up preprocessing and model training while keeping the dataset **balanced** between cats and dogs.  
+- This approach allowed for faster experimentation and easier tuning of the SVM model.  
+
+---
+
+## 🐾 Single Image Prediction
+
+In addition to testing on the dataset, the model can predict the class of a **single uploaded image**.  
+
+**How it works:**  
+1. Load the image with OpenCV.  
+2. Resize it to `64x64` pixels (same as training images).  
+3. Flatten the image to a 1D array for SVM input.  
+4. Use the trained model to predict the class.  
+5. Output `"Cat"` or `"Dog"`.  
+
 
 ---
 
@@ -53,7 +76,7 @@ Implement a **Support Vector Machine (SVM)** classifier to distinguish between i
 
 - `PRODIGY_ML_03.ipynb` → Full implementation notebook  
 - `README.md` → Project overview  
-- `images/sample_predictions.png` → Output visualization  
+- `sample_predictions.png` → Output visualization  
 
 ---
 
