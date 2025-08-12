@@ -42,11 +42,10 @@ Implement a **Support Vector Machine (SVM)** classifier to distinguish between i
 
 ## ✅ Results
 
-- Achieved classification accuracy of **XX%** on test data  
+- Achieved classification accuracy of **0.67** on test data  
 - Successfully predicted labels for unseen images  
 
-**Example Predictions:**
-![Sample Predictions](images/sample_predictions.png)
+
 
 ---
 
@@ -60,7 +59,7 @@ Implement a **Support Vector Machine (SVM)** classifier to distinguish between i
 
 ## 🔗 Open in Google Colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]((https://colab.research.google.com/drive/1tx9xzv-EeLFc-Z_o8ffs10VCiiwv-C3o#scrollTo=5_IG684Rfj5Z))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([(https://colab.research.google.com/drive/1tx9xzv-EeLFc-Z_o8ffs10VCiiwv-C3o#scrollTo=5_IG684Rfj5Z)])
 
 ---
 
