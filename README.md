@@ -59,7 +59,7 @@ Implement a **Support Vector Machine (SVM)** classifier to distinguish between i
 
 ## 🔗 Open in Google Colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([(https://colab.research.google.com/drive/1tx9xzv-EeLFc-Z_o8ffs10VCiiwv-C3o#scrollTo=5_IG684Rfj5Z)])
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MiliSharma-1808/PRODIGY_ML_03/blob/main/PRODIGY_ML_03.ipynb)
 
 ---
 
